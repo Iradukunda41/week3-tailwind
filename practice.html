@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <title>Tailwind CSS Practice</title>
+</head>
+
+<body class="bg-slate-100 min-h-screen flex flex-col items-center gap-8 p-4">
+
+     <h1 class="text-2xl font-bold text-slate-800">Tailwind CSS Practice</h1>
+
+     <section class="w-full max-w-sm">
+          <h2 class="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-500">Part 2: Profile Card</h2>
+
+          <div class="mx-auto bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow p-6 text-center">
+               <img src="images/profile.jpg" alt="Portrait of Flora"
+                    class="size-24 rounded-full mx-auto mb-4 ring-4 ring-amber-100" />
+
+               <h3 class="text-xl font-semibold text-slate-800">Flora</h3>
+               <p class="text-sm text-slate-500 mb-4">Frontend Development Student · Rwanda</p>
+
+               <p class="text-slate-600 leading-relaxed mb-4">
+                    I'm learning to build clean, responsive websites with HTML, CSS and Tailwind,
+                    and I'm working toward becoming a frontend developer.
+               </p>
+
+               <div class="mb-6 space-x-2">
+                    <span class="inline-block text-xs px-2 py-1 rounded-full bg-amber-100 text-amber-700">HTML &amp;
+                         CSS</span>
+                    <span
+                         class="inline-block text-xs px-2 py-1 rounded-full bg-amber-100 text-amber-700">Tailwind</span>
+               </div>
+
+               <a href="#" class="inline-block bg-amber-600 text-white font-medium px-5 py-2 rounded-lg
+               hover:bg-amber-700 transition-colors
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
+                    Contact me
+               </a>
+          </div>
+     </section>
+
+     <section class="w-full max-w-sm">
+          <h2 class="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-500">Part 3: Notice</h2>
+
+          <div class="bg-amber-100 text-amber-800 py-4 px-6 border-l-4 border-amber-500 rounded-lg font-medium mt-8">
+               Heads up: this is a notice box.
+          </div>
+     </section>
+
+     <section class="w-full max-w-xs">
+          <h2 class="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-500">Part 4: Pricing Box</h2>
+
+          <div class="bg-white border border-slate-200 rounded-2xl p-6">
+
+               <h3 class="text-lg font-semibold text-slate-800">Pro Plan</h3>
+
+               <p class="mt-2 mb-6">
+                    <span class="text-5xl font-bold text-slate-900">100K</span>
+                    <span class="text-sm text-slate-500">/month</span>
+               </p>
+
+               <ul class="space-y-2 mb-6 text-slate-600">
+                    <li>✓ Unlimited projects</li>
+                    <li>✓ Custom domain</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ Weekly backups</li>
+               </ul>
+
+               <button type="button"
+                    class="w-full cursor-pointer bg-amber-600 text-white font-medium py-2 rounded-lg
+               hover:bg-amber-700 transition-colors
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2">
+                    Choose Pro
+               </button>
+          </div>
+     </section>
+
+</body>
+
+</html>
